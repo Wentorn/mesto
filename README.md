@@ -7,4 +7,4 @@
 
 ## Ссылка на готовую страницу:
 
-[Pages](https://Wentorn.github.io/mesto)
+[Pages](https://Wentorn.github.io/mesto/)
