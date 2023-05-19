@@ -1,0 +1,17 @@
+.profile__info {
+  color: #ffffff;
+  align-self: center;
+  display: grid;
+  grid-template-columns: 1fr 24px;
+  grid-template-rows: auto auto;
+  grid-column-gap: 18px;
+  grid-row-gap: 16px;
+}
+
+@media (max-width: 672px) {
+  .profile__info {
+    grid-template-columns: 1fr 18px;
+    grid-column-gap: 10px;
+    grid-row-gap: 14px;
+  }
+}
