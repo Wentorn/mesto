@@ -1,17 +1,17 @@
-.elements__button-like{
+.elements__button_like{
   width: 22px;
   height: 19px;
   border: none;
-  background-image: url(../../../images/__button_like.svg);
+  background-image: url(../../../../images/__button_like.svg);
   background-color: transparent;
   color: black;
   cursor: pointer;
 }
 
-.elements__button-like:hover{
+.elements__button_like:hover{
   opacity: 0.5;
 }
 
-.elements__button-like:active{
+.elements__button_like:active{
   fill: #000000;
 }

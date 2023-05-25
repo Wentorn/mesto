@@ -9,9 +9,7 @@
 </head>
 <body class="page">
   <header class="header">
-    <div class="header__logo">
-      <img src="./images/__logo.svg" alt="Логотип Mesto Russia" class="header__logo-image">
-    </div>
+    <img src="./images/__logo.svg" alt="Логотип Mesto Russia" class="header__logo">
   </header>
   <main>
     <section class="profile">
@@ -20,53 +18,53 @@
       </div>
       <div class="profile__info">
         <h1 class="profile__name">Жак-Ив Кусто</h1>
-        <button class="profile__button-edit"></button>
+        <button class="profile__button-edit" type="button"></button>
         <p class="profile__description">Исследователь океана</p>
       </div>
-      <button class="profile__button-add" type="submit"></button>
+      <button class="profile__button-add" type="button"></button>
     </section>
     <section class="elements">
       <ul class="elements__items">
         <li class="elements__card">
-          <img class="elements__image" src="https://images.unsplash.com/photo-1566204773863-cf63e6d4ab88?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1116&q=80" alt="Цветы">
+          <img class="elements__image" src="./images/flowers.avif" alt="Цветы">
           <div class="elements__info">
             <h2 class="elements__title">Цветы</h2>
-            <button class="elements__button-like" type="button"></button>
+            <button class="elements__button_like" type="button"></button>
           </div>
         </li>
         <li class="elements__card">
-          <img class="elements__image" src="https://images.unsplash.com/photo-1533423996375-f914ab160932?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=900&q=80" alt="Окно">
+          <img class="elements__image" src="./images/window.avif" alt="Окно">
           <div class="elements__info">
             <h2 class="elements__title">Окно</h2>
-            <button class="elements__button-like" type="button"></button>
+            <button class="elements__button_like" type="button"></button>
           </div>
         </li>
         <li class="elements__card">
-          <img class="elements__image" src="https://images.unsplash.com/photo-1486946255434-2466348c2166?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80" alt="Стул">
+          <img class="elements__image" src="./images/chair.avif" alt="Стул">
           <div class="elements__info">
             <h2 class="elements__title">Стул</h2>
-            <button class="elements__button-like" type="button"></button>
+            <button class="elements__button_like" type="button"></button>
           </div>
         </li>
         <li class="elements__card">
-          <img class="elements__image" src="https://images.unsplash.com/photo-1523544463628-d873327f5217?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80" alt="Зал">
+          <img class="elements__image" src="./images/room.avif" alt="Зал">
           <div class="elements__info">
             <h2 class="elements__title">Узорчатые своды зала</h2>
-            <button class="elements__button-like" type="button"></button>
+            <button class="elements__button_like" type="button"></button>
           </div>
         </li>
         <li class="elements__card">
-          <img class="elements__image" src="https://images.unsplash.com/photo-1584280795027-321f4d68e77b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80" alt="Телевизор">
+          <img class="elements__image" src="./images/tv.avif" alt="Телевизор">
           <div class="elements__info">
             <h2 class="elements__title">Телевизор</h2>
-            <button class="elements__button-like" type="button"></button>
+            <button class="elements__button_like" type="button"></button>
           </div>
         </li>
         <li class="elements__card">
-          <img class="elements__image" src="https://images.unsplash.com/photo-1602872029708-84d970d3382b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80" alt="Гостинная">
+          <img class="elements__image" src="./images/livingroom.avif" alt="Гостинная">
           <div class="elements__info">
             <h2 class="elements__title">Гостинная</h2>
-            <button class="elements__button-like" type="button"></button>
+            <button class="elements__button_like" type="button"></button>
           </div>
         </li>
       </ul>
@@ -78,12 +76,12 @@
 
   <div class="popup">
     <div class="popup__container">
-      <button type="button" class="popup__button-close"></button>
+      <button type="button" class="popup__button_close"></button>
       <h3 class="popup__title">Редактировать профиль</h3>
-      <form class="popup__form">
-        <input type="text" class="popup__input popup__input_name" placeholder="Ваше Имя" value="Жак-Ив Кусто" onfocus="this.value=''">
-        <input type="text" class="popup__input popup__input_description" placeholder="О себе" value="Исследователь океана" onfocus="this.value=''">
-        <button type="submit" class="popup__button-save">Сохранить</button>
+      <form class="popup__form" name="profile">
+        <input type="text" class="popup__input popup__input_name" placeholder="Ваше Имя" value="Жак-Ив Кусто">
+        <input type="text" class="popup__input popup__input_description" placeholder="О себе" value="Исследователь океана">
+        <button type="submit" class="popup__button_save">Сохранить</button>
       </form>
     </div>
   </div>

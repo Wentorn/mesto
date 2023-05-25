@@ -1,15 +1,13 @@
 .header {
   border-bottom: 1px solid;
-  border-color: #545454;
+  border-color: rgba(84,84,84,0.7);
   max-width: 880px;
-  height: 74px;
   margin: 45px 0 0 0;
   display: flex;
 }
 
 @media (max-width: 450px) {
   .header {
-    height: 56px;
     margin: 28px auto 0;
   }
 }
