@@ -1,4 +1,4 @@
-.popup__button-save {
+.popup__button_save {
   width: 358px;
   height: 50px;
   color: #ffffff;
@@ -7,16 +7,16 @@
   font-weight: 400;
   line-height: 22px;
   text-align: center;
-  margin: 18px 36px 37px;
+  margin: 18px auto 37px;
   padding: 0;
 }
 
 @media (max-width: 540px) {
-  .popup__button-save {
+  .popup__button_save {
     width: 238px;
     height: 46px;
     font-size: 14px;
     line-height: 17px;
-    margin: 15px 22px 25px;
+    margin: 15px auto 25px;
   }
 }
