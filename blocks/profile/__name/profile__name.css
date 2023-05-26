@@ -2,13 +2,18 @@
   font-size: 42px;
   font-weight: 500;
   line-height: 48px;
+  font-style: normal;
   margin: 0;
   padding: 0;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 @media (max-width: 672px) {
   .profile__name {
     font-size: 27px;
     line-height: 33px;
+    text-align: center;
   }
 }

@@ -4,7 +4,9 @@
   background-image: url(../../../images/__button_add.svg);
   background-position: center;
   background-repeat: no-repeat;
+  background-size: auto;
   border: 2px solid #ffffff;
+  border-radius: 2px;
   box-sizing: border-box;
   background-color: transparent;
   align-self: center;

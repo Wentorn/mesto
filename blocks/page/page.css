@@ -11,9 +11,3 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
 }
-
-@media (max-width: 879px) {
-  .page {
-    margin: 0 19px 0;
-  }
-}

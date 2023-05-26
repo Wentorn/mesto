@@ -4,6 +4,9 @@
   line-height: 17px;
   margin: 0;
   padding: 0;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 @media (max-width: 672px) {
@@ -11,6 +14,5 @@
     grid-column: 1 / span 2;
     text-align: center;
     font-size: 14px;
-
   }
 }
