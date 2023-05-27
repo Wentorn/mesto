@@ -11,8 +11,8 @@
   background-color: transparent;
   align-self: center;
   right: 0;
-  
-  margin-left: 244px;
+  margin: 0 0 0 auto;
+
 }
 
 .profile__button-add:hover {
