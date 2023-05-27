@@ -11,3 +11,9 @@
   outline: none;
 }
 
+@media (max-width: 540px) {
+  .popup__input {
+    padding-bottom: 8px;
+  }
+}
+
