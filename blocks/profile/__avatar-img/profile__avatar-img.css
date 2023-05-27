@@ -8,6 +8,7 @@
   align-items: center;
   object-fit: cover;
   object-position: center;
+  flex-shrink: 0;
 }
 
 @media (max-width: 672px) {

@@ -20,5 +20,6 @@
   .profile__button-edit {
     width: 18px;
     height: 18px;
+    background-image: url(../../../images/mobile__button_edit.svg);
   }
 }

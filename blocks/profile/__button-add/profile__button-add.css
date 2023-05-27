@@ -1,5 +1,5 @@
 .profile__button-add {
-  width: 150px;
+  min-width: 150px;
   height: 50px;
   background-image: url(../../../images/__button_add.svg);
   background-position: center;
@@ -11,7 +11,8 @@
   background-color: transparent;
   align-self: center;
   right: 0;
-  margin: 0 0 0 auto;
+  
+  margin-left: 244px;
 }
 
 .profile__button-add:hover {
@@ -23,5 +24,6 @@
   .profile__button-add {
     width: 282px;
     margin: 36px 0 0;
+    background-image: url(../../../images/mobile__button_add.svg);
   }
 }

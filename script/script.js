@@ -6,7 +6,9 @@ const formElement = document.querySelector('.popup__form');
 const textName = document.querySelector('.profile__name'); 
 const textDesc = document.querySelector('.profile__description'); 
 const editButton = document.querySelector('.profile__button-edit'); 
-const iconLike = document.querySelector('.elements__button-like');
+/*
+const iconLike = document.querySelectorAll('.elements__button-like');
+*/
 
 function onPopup () {
     popup.classList.add('popup_active');
@@ -25,15 +27,19 @@ function formSubmitHandler (data) {
     closePopup();
 }
 
+/*
 function toggleLike () {
-    if (iconLike.classList.contains('elements__button-like_active')) {
-        iconLike.classList.remove("elements__button-like_active");
+    if (this.classList.contains('elements__button-like_active')) {
+        this.classList.remove("elements__button-like_active");
     } else {
-        iconLike.classList.add("elements__button-like_active");
+        this.classList.add("elements__button-like_active");
     }
   }
+*/
 
 formElement.addEventListener('submit', formSubmitHandler);
 iconClose.addEventListener('click', closePopup);
 editButton.addEventListener('click', onPopup);
-iconLike.addEventListener('click', toggleLike);
+/*
+iconLike.forEach(icon => icon.addEventListener('click', toggleLike));
+*/
